@@ -23,6 +23,12 @@
 		E57235C92A8A35ED00AAF568 /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235BC2A8A35ED00AAF568 /* TaskManagerApp.swift */; };
 		E57235CA2A8A35ED00AAF568 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235BE2A8A35ED00AAF568 /* TaskRow.swift */; };
 		E57235CB2A8A35ED00AAF568 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235C02A8A35ED00AAF568 /* TaskView.swift */; };
+		E5A4C8AF2A8BB4D200367A12 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8AE2A8BB4D200367A12 /* ActivityData.swift */; };
+		E5A4C8B12A8BB4F800367A12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8B02A8BB4F800367A12 /* Constants.swift */; };
+		E5A4C8B32A8BB51600367A12 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8B22A8BB51600367A12 /* BlurView.swift */; };
+		E5A4C8B52A8BB54400367A12 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8B42A8BB54400367A12 /* RingView.swift */; };
+		E5A4C8B72A8BB56F00367A12 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8B62A8BB56F00367A12 /* ColorExtension.swift */; };
+		E5A4C8BA2A8BB82500367A12 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8B92A8BB82500367A12 /* ActivityView.swift */; };
 		E5F863B12A8A5F72008FE887 /* HorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F863B02A8A5F72008FE887 /* HorizontalScrolling.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +50,12 @@
 		E57235BC2A8A35ED00AAF568 /* TaskManagerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
 		E57235BE2A8A35ED00AAF568 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		E57235C02A8A35ED00AAF568 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		E5A4C8AE2A8BB4D200367A12 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		E5A4C8B02A8BB4F800367A12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E5A4C8B22A8BB51600367A12 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E5A4C8B42A8BB54400367A12 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		E5A4C8B62A8BB56F00367A12 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E5A4C8B92A8BB82500367A12 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		E5F863B02A8A5F72008FE887 /* HorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrolling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +95,7 @@
 				E57235AA2A8A35ED00AAF568 /* Project-1 */,
 				E57235B92A8A35ED00AAF568 /* Project-2 */,
 				E57235B02A8A35ED00AAF568 /* Project-3 */,
+				E5A4C8A92A8BB43D00367A12 /* Project-4 */,
 				E572359C2A8A35D800AAF568 /* Assets.xcassets */,
 				E572359E2A8A35D800AAF568 /* Preview Content */,
 			);
@@ -234,6 +247,59 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E5A4C8A92A8BB43D00367A12 /* Project-4 */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8AA2A8BB45100367A12 /* ActivityTrackerApp */,
+			);
+			path = "Project-4";
+			sourceTree = "<group>";
+		};
+		E5A4C8AA2A8BB45100367A12 /* ActivityTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8B82A8BB80A00367A12 /* Components */,
+				E5A4C8AB2A8BB4A100367A12 /* Data */,
+				E5A4C8AD2A8BB4B600367A12 /* Views */,
+				E5A4C8AC2A8BB4AA00367A12 /* Extensions */,
+			);
+			path = ActivityTrackerApp;
+			sourceTree = "<group>";
+		};
+		E5A4C8AB2A8BB4A100367A12 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8AE2A8BB4D200367A12 /* ActivityData.swift */,
+				E5A4C8B02A8BB4F800367A12 /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E5A4C8AC2A8BB4AA00367A12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8B62A8BB56F00367A12 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5A4C8AD2A8BB4B600367A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8B92A8BB82500367A12 /* ActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5A4C8B82A8BB80A00367A12 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8B22A8BB51600367A12 /* BlurView.swift */,
+				E5A4C8B42A8BB54400367A12 /* RingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,12 +371,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57235C72A8A35ED00AAF568 /* RecipeView.swift in Sources */,
+				E5A4C8B12A8BB4F800367A12 /* Constants.swift in Sources */,
 				E57235C82A8A35ED00AAF568 /* RecipeDetailView.swift in Sources */,
 				E57235C92A8A35ED00AAF568 /* TaskManagerApp.swift in Sources */,
 				E57235CA2A8A35ED00AAF568 /* TaskRow.swift in Sources */,
+				E5A4C8B52A8BB54400367A12 /* RingView.swift in Sources */,
+				E5A4C8B32A8BB51600367A12 /* BlurView.swift in Sources */,
+				E5A4C8AF2A8BB4D200367A12 /* ActivityData.swift in Sources */,
 				E57235C12A8A35ED00AAF568 /* Course.swift in Sources */,
 				E57235C32A8A35ED00AAF568 /* WeatherData.swift in Sources */,
 				E572359B2A8A35D500AAF568 /* ContentView.swift in Sources */,
+				E5A4C8BA2A8BB82500367A12 /* ActivityView.swift in Sources */,
 				E57235CB2A8A35ED00AAF568 /* TaskView.swift in Sources */,
 				E57235C42A8A35ED00AAF568 /* WeatherView.swift in Sources */,
 				E5F863B12A8A5F72008FE887 /* HorizontalScrolling.swift in Sources */,
@@ -319,6 +390,7 @@
 				E57235C62A8A35ED00AAF568 /* RecipeCard.swift in Sources */,
 				E57235C22A8A35ED00AAF568 /* SideBar.swift in Sources */,
 				E57235992A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift in Sources */,
+				E5A4C8B72A8BB56F00367A12 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

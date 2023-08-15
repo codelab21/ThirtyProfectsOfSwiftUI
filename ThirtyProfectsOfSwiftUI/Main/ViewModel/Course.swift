@@ -24,7 +24,7 @@ class CourseViewModel: ObservableObject {
         CourseTutorial(name: "Weather App", destinationView: AnyView(WeatherView())),
         CourseTutorial(name: "Task Manager", destinationView: AnyView(TaskView())),
         CourseTutorial(name: "Recipe Book", destinationView: AnyView(RecipeView(recipeManager: RecipeManager()))),
-        CourseTutorial(name: "Fitness Tracker", destinationView: AnyView(Text("Fitness Tracker App"))),
+        CourseTutorial(name: "Fitness Tracker", destinationView: AnyView(ActivityView())),
         CourseTutorial(name: "E-Commerce Store", destinationView: AnyView(Text("E-Commerce Store App"))),
         CourseTutorial(name: "Photo Gallery", destinationView: AnyView(Text("Photo Gallery App"))),
         CourseTutorial(name: "Chat Application", destinationView: AnyView(Text("Chat Application App"))),

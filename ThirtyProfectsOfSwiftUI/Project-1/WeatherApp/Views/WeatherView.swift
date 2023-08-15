@@ -4,7 +4,6 @@
 //
 //  MARK: codelab21 follow me on Instagram and YouTube
 
-//
 
 import SwiftUI
 import CoreLocation
