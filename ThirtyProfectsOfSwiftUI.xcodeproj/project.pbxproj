@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51353342A8A888800883241 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51353332A8A888800883241 /* Extensions.swift */; };
 		E57235992A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235982A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift */; };
 		E572359B2A8A35D500AAF568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E572359A2A8A35D500AAF568 /* ContentView.swift */; };
 		E572359D2A8A35D800AAF568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E572359C2A8A35D800AAF568 /* Assets.xcassets */; };
 		E57235A02A8A35D800AAF568 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E572359F2A8A35D800AAF568 /* Preview Assets.xcassets */; };
+		E57235C12A8A35ED00AAF568 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235A82A8A35ED00AAF568 /* Course.swift */; };
+		E57235C22A8A35ED00AAF568 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235A92A8A35ED00AAF568 /* SideBar.swift */; };
+		E57235C32A8A35ED00AAF568 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235AD2A8A35ED00AAF568 /* WeatherData.swift */; };
+		E57235C42A8A35ED00AAF568 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235AF2A8A35ED00AAF568 /* WeatherView.swift */; };
+		E57235C52A8A35ED00AAF568 /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235B32A8A35ED00AAF568 /* RecipeClass.swift */; };
+		E57235C62A8A35ED00AAF568 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235B52A8A35ED00AAF568 /* RecipeCard.swift */; };
+		E57235C72A8A35ED00AAF568 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235B72A8A35ED00AAF568 /* RecipeView.swift */; };
+		E57235C82A8A35ED00AAF568 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235B82A8A35ED00AAF568 /* RecipeDetailView.swift */; };
+		E57235C92A8A35ED00AAF568 /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235BC2A8A35ED00AAF568 /* TaskManagerApp.swift */; };
+		E57235CA2A8A35ED00AAF568 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235BE2A8A35ED00AAF568 /* TaskRow.swift */; };
+		E57235CB2A8A35ED00AAF568 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57235C02A8A35ED00AAF568 /* TaskView.swift */; };
+		E5F863B12A8A5F72008FE887 /* HorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F863B02A8A5F72008FE887 /* HorizontalScrolling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51353332A8A888800883241 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E57235952A8A35D500AAF568 /* ThirtyProfectsOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirtyProfectsOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57235982A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyProfectsOfSwiftUIApp.swift; sourceTree = "<group>"; };
 		E572359A2A8A35D500AAF568 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E572359C2A8A35D800AAF568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E572359F2A8A35D800AAF568 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E57235A82A8A35ED00AAF568 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		E57235A92A8A35ED00AAF568 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		E57235AD2A8A35ED00AAF568 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		E57235AF2A8A35ED00AAF568 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		E57235B32A8A35ED00AAF568 /* RecipeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
+		E57235B52A8A35ED00AAF568 /* RecipeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		E57235B72A8A35ED00AAF568 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		E57235B82A8A35ED00AAF568 /* RecipeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		E57235BC2A8A35ED00AAF568 /* TaskManagerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
+		E57235BE2A8A35ED00AAF568 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		E57235C02A8A35ED00AAF568 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		E5F863B02A8A5F72008FE887 /* HorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrolling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,10 @@
 			children = (
 				E57235982A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift */,
 				E572359A2A8A35D500AAF568 /* ContentView.swift */,
+				E57235A62A8A35ED00AAF568 /* Main */,
+				E57235AA2A8A35ED00AAF568 /* Project-1 */,
+				E57235B92A8A35ED00AAF568 /* Project-2 */,
+				E57235B02A8A35ED00AAF568 /* Project-3 */,
 				E572359C2A8A35D800AAF568 /* Assets.xcassets */,
 				E572359E2A8A35D800AAF568 /* Preview Content */,
 			);
@@ -65,6 +95,143 @@
 				E572359F2A8A35D800AAF568 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E57235A62A8A35ED00AAF568 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E57235A72A8A35ED00AAF568 /* ViewModel */,
+				E57235A92A8A35ED00AAF568 /* SideBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E57235A72A8A35ED00AAF568 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E57235A82A8A35ED00AAF568 /* Course.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E57235AA2A8A35ED00AAF568 /* Project-1 */ = {
+			isa = PBXGroup;
+			children = (
+				E57235AB2A8A35ED00AAF568 /* WeatherApp */,
+			);
+			path = "Project-1";
+			sourceTree = "<group>";
+		};
+		E57235AB2A8A35ED00AAF568 /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				E57235AC2A8A35ED00AAF568 /* ViewModel */,
+				E57235AE2A8A35ED00AAF568 /* Views */,
+			);
+			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		E57235AC2A8A35ED00AAF568 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E57235AD2A8A35ED00AAF568 /* WeatherData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E57235AE2A8A35ED00AAF568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E57235AF2A8A35ED00AAF568 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E57235B02A8A35ED00AAF568 /* Project-3 */ = {
+			isa = PBXGroup;
+			children = (
+				E57235B12A8A35ED00AAF568 /* RecipeApp */,
+			);
+			path = "Project-3";
+			sourceTree = "<group>";
+		};
+		E57235B12A8A35ED00AAF568 /* RecipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				E57235B22A8A35ED00AAF568 /* ViewModel */,
+				E57235B42A8A35ED00AAF568 /* Components */,
+				E57235B62A8A35ED00AAF568 /* Views */,
+			);
+			path = RecipeApp;
+			sourceTree = "<group>";
+		};
+		E57235B22A8A35ED00AAF568 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E57235B32A8A35ED00AAF568 /* RecipeClass.swift */,
+				E51353332A8A888800883241 /* Extensions.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E57235B42A8A35ED00AAF568 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E57235B52A8A35ED00AAF568 /* RecipeCard.swift */,
+				E5F863B02A8A5F72008FE887 /* HorizontalScrolling.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E57235B62A8A35ED00AAF568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E57235B72A8A35ED00AAF568 /* RecipeView.swift */,
+				E57235B82A8A35ED00AAF568 /* RecipeDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E57235B92A8A35ED00AAF568 /* Project-2 */ = {
+			isa = PBXGroup;
+			children = (
+				E57235BA2A8A35ED00AAF568 /* TaskManagerApp */,
+			);
+			path = "Project-2";
+			sourceTree = "<group>";
+		};
+		E57235BA2A8A35ED00AAF568 /* TaskManagerApp */ = {
+			isa = PBXGroup;
+			children = (
+				E57235BB2A8A35ED00AAF568 /* ViewModel */,
+				E57235BD2A8A35ED00AAF568 /* Components */,
+				E57235BF2A8A35ED00AAF568 /* Views */,
+			);
+			path = TaskManagerApp;
+			sourceTree = "<group>";
+		};
+		E57235BB2A8A35ED00AAF568 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E57235BC2A8A35ED00AAF568 /* TaskManagerApp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E57235BD2A8A35ED00AAF568 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E57235BE2A8A35ED00AAF568 /* TaskRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E57235BF2A8A35ED00AAF568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E57235C02A8A35ED00AAF568 /* TaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +304,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57235C72A8A35ED00AAF568 /* RecipeView.swift in Sources */,
+				E57235C82A8A35ED00AAF568 /* RecipeDetailView.swift in Sources */,
+				E57235C92A8A35ED00AAF568 /* TaskManagerApp.swift in Sources */,
+				E57235CA2A8A35ED00AAF568 /* TaskRow.swift in Sources */,
+				E57235C12A8A35ED00AAF568 /* Course.swift in Sources */,
+				E57235C32A8A35ED00AAF568 /* WeatherData.swift in Sources */,
 				E572359B2A8A35D500AAF568 /* ContentView.swift in Sources */,
+				E57235CB2A8A35ED00AAF568 /* TaskView.swift in Sources */,
+				E57235C42A8A35ED00AAF568 /* WeatherView.swift in Sources */,
+				E5F863B12A8A5F72008FE887 /* HorizontalScrolling.swift in Sources */,
+				E51353342A8A888800883241 /* Extensions.swift in Sources */,
+				E57235C52A8A35ED00AAF568 /* RecipeClass.swift in Sources */,
+				E57235C62A8A35ED00AAF568 /* RecipeCard.swift in Sources */,
+				E57235C22A8A35ED00AAF568 /* SideBar.swift in Sources */,
 				E57235992A8A35D500AAF568 /* ThirtyProfectsOfSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +450,8 @@
 				DEVELOPMENT_TEAM = 2XYGSQSC8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +481,8 @@
 				DEVELOPMENT_TEAM = 2XYGSQSC8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide current Weather information.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current Weather information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

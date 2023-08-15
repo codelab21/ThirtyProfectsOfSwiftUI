@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  ThirtyProfectsOfSwiftUI
 //
-//  Created by Eymen on 14.08.2023.
+//  MARK: codelab21 follow me on Instagram and YouTube
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        SideBar()
     }
 }
 

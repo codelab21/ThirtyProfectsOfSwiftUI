@@ -2,7 +2,7 @@
 //  ThirtyProfectsOfSwiftUIApp.swift
 //  ThirtyProfectsOfSwiftUI
 //
-//  Created by Eymen on 14.08.2023.
+//  MARK: codelab21 follow me on Instagram and YouTube
 //
 
 import SwiftUI
