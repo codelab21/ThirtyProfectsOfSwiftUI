@@ -10,12 +10,12 @@ Here's a list of the 30 projects included in this repository:
 1. Weather App
 2. Task Manager
 3. Recipe Book
-4. Fitness Tracker
+4. Activity Tracker
 5. E-Commerce Store
 6. Photo Gallery
 7. Chat Application
 8. Travel Journal
-9. Music Player
+9. Audio Player
 10. To-Do List
 11. Drawing App
 12. Language Learning
@@ -23,18 +23,18 @@ Here's a list of the 30 projects included in this repository:
 14. Finance Tracker
 15. Event Countdown
 16. Health Diary
-17. Trivia Quiz
+17. Quiz App
 18. Location-based Reminders
 19. AR Showcase
 20. Virtual Plant Care
 21. Language Translation
-22. Cocktail Recipe Guide
+22. Alarm App
 23. Daily Journal
-24. Pet Adoption
+24. History App
 25. Home Automation
-26. Random Quotes Generator
+26. Map App
 27. Language Pronunciation
-28. Fashion Lookbook
-29. Meditation Guide
-30. Virtual Reality Tours
+28. 
+29. Not App
+30. Social Media App UI
 
